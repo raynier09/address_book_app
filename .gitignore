@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+.dist/
+.build/
+
+# Logs and debug information
+*.log
+*.out
+*.err
+
+# Cython debug symbols
+cython_debug/
+
+# VS Code settings
+.vscode/
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+
+# Uvicorn
+instance/
+.uvicorn/
